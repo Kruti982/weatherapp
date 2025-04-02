@@ -35,7 +35,7 @@ export default function WeatherBody({ location }) {
   console.log("parameter", parameter);
   const handleOnClick = () => {
     axios
-      .get("http://api.weatherapi.com/v1/current.json", {
+      .get("https://api.weatherapi.com/v1/current.json", {
         params: {
           key: "ef551ac08de5430b87a111604252303",
           q: region,
